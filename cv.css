@@ -1,0 +1,341 @@
+/*    */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("nubes.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5vw;
+  color: #d4af37;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  font-size: 4vw;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 3vw;
+  color: blue;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 2vw;
+  color: black;
+  text-align: center;
+}
+
+.linea1 {
+  border-top: 5px solid black;
+  width: 100%;
+}
+
+header {
+  width: 98%;
+  height: 60vh;
+  margin: 10px 10px 20px 10px;
+}
+
+#publicidad {
+  margin: 1px solid blue;
+  width: 48%;
+  height: 60vh;
+  float: right;
+}
+
+#logoRMR {
+  width: 15%;
+  height: 25vh;
+  float: left;
+}
+
+#publicidad2 {
+  width: 35%;
+  height: 25vh;
+  float: left;
+  margin: 0 0 0 5px;
+}
+
+#buscador {
+  margin: 32px 5px 0 0;
+  float: left;
+}
+
+form {
+  width: 15%;
+  height: 28vh;
+  border: 5px solid blue;
+  background-color: #d4af37;
+  justify-content: flex-start;
+  margin: 15px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+
+input,select {
+  width: 99%;
+  margin: 20px 5px 20px 5px;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 2px double black;
+}
+
+input[type="submit"] {
+  font-size: 1em;
+  color: white;
+  background-color: blue;
+  border-color: 1px solid black;
+  height: 35px;
+  cursor: pointer;
+  width: 30%;
+}
+
+input[type="submit"]:hover {
+  background: red;
+  transition: 0.6s all;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  display: block;
+  background-color: #191970;
+  border: #ffffff 2px solid;
+  color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin: 20px 5px 20px 12px;
+  padding: 15px 30px 15px 30px;
+  box-shadow: 7px 10px 15px black;
+
+}
+
+/*   comentario          */
+#menu ul li a:hover {
+  height: 60px;
+  margin: 20px 5px 20px 12px;
+  padding: 15px 30px 15px 30px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  box-shadow: 7px 10px 15px black;
+  background-color: #ffffff;
+}
+
+.bannerNombres {
+  background-color: black;
+  width: 98%;
+  height: 20vh;
+  margin: 20px 10px 20px 10px;
+  padding: 10px 30px 15px 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+
+}
+
+.box1 {
+  width: 38%;
+  height: 400px;
+  background-color: white;
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+  margin: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 7px 10px 15px black;
+  float: left;
+}
+
+.marcoImagenPrincipal {
+  width: 58%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 7px 10px 15px black;
+  float: right;
+}
+
+.marcoImagenPrincipal img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 70%;
+  height: 2200px;
+  margin: 20px 5px 10px 10px;
+  border: 2px solid #006691;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  text-align: center;
+}
+
+.estudiosCursados {
+  width: 100%;
+  height: 760px;
+}
+
+.experienciaLaboral {
+  width: 100%;
+  height: 1500px;
+}
+
+.canadaAir {
+  width: 98%;
+  height: 260px;
+  margin: 10px 5px 10px 5px;
+  background-image: url(air-canada-logo-2.png);
+  background-size: 165px 60px;
+  background-repeat: repeat-x;
+  background-attachment: local;
+  background-position-y: 40px;
+  image-rendering: pixelated;
+}
+
+/*cajas individuales contenedor central experienciaLaboral*/
+.qATARAIRWAYS {
+  width: 98%;
+  height: 260px;
+  margin: 10px 5px 10px 5px;
+  background-image: url(QATARAIRWAYS.png);
+  background-size: 165px 60px;
+  background-repeat: repeat-x;
+  background-attachment: local;
+  background-position-y: 55px;
+  image-rendering: pixelated;
+}
+
+/*cajas individuales contenedor experienciaLaboral*/
+.qantas {
+  width: 98%;
+  height: 260px;
+  margin: 10px 5px 10px 5px;
+  background-image: url(Qantas.png);
+  background-size: 165px 60px;
+  background-repeat: repeat-x;
+  background-attachment: local;
+  background-position-y: 55px;
+  image-rendering: pixelated;
+}
+
+/*cajas individuales contenedor central experienciaLaboral*/
+.AerolineasArgentinas {
+  width: 98%;
+  height: 250px;
+  margin: 10px 5px 10px 5px;
+  background-image: url(AerolineasArgentinas.png);
+  background-size: 165px 60px;
+  background-repeat: repeat-x;
+  background-attachment: local;
+  background-position-y: 45px;
+  image-rendering: pixelated;
+}
+
+/*cajas individuales contenedor central experienciaLaboral*/
+.australla {
+  width: 98%;
+  height: 260px;
+  margin: 10px 5px 10px 5px;
+  background-image: url(australLA.png);
+  background-size: 165px 120px;
+  background-repeat: repeat-x;
+  background-attachment: local;
+  background-position-y: 30px;
+  image-rendering: pixelated;
+}
+
+aside {
+  width: 27%;
+  height: 2200px;
+  margin: 20px 5px 10px 5px;
+  background-color: #3165f4;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.datosPersonales {
+  text-align: center;
+  padding: auto;
+}
+
+.galeriaImagenes {
+  width: 99%;
+  text-align: center;
+}
+
+.sobremi{
+  width: 99%;
+  margin-top: 20px;
+  text-align: justify;
+  padding: 5px 1% 5px 1%;
+  border: 1px solid blue;
+}
+
+.autor {
+  background-color: #40cfff;
+  width: 98%;
+  margin: 40px 20px 10px 10px;
+  height: 80px;
+  float: left;
+  border: 2px solid #d4af37;
+  text-align: center;
+  color: white;
+}
+
+@media(min-width:728px) {
+  form {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+.videoTakeoff {
+
+  width: 58%;
+  height: 315px;
+  margin: 50px 10px 10px 10px;
+  border: 2px solid black;
+  background-color: black;
+  box-shadow: 7px 15px 15px blue;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  text-align: left;
+}
